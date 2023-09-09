@@ -1,6 +1,7 @@
-import { gallery } from './refs';
-
 export { renderGallery };
+
+const gallery = document.querySelector('.gallery');
+
 function renderGallery(images) {
   const markup = images
     .map(image => {
@@ -29,5 +30,6 @@ function renderGallery(images) {
       `;
     })
     .join('');
+
   gallery.insertAdjacentHTML('beforeend', markup);
 }
