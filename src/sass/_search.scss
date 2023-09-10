@@ -3,7 +3,7 @@
   padding-top: 10px;
   padding-bottom: 10px;
   position: fixed;
-  background-color: #ffffff;
+  background-color: #4065c3;
   box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
   z-index: 1;
 }
@@ -21,7 +21,7 @@
     font: inherit;
     padding: 2px 40px 2px 15px;
     &::placeholder {
-      color: gray;
+      color: rgb(97, 102, 107);
     }
   }
   button {
